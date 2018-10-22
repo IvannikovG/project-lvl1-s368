@@ -1,0 +1,40 @@
+{
+  "name": "braingamesivannikovg",
+  "version": "1.0.0",
+  "description": "JS project N1 for Hexlet. Braingames",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvannikovG/project-lvl1-s368.git"
+  },
+  "keywords": [
+    "braingames",
+    "brain",
+    "games",
+    "project1"
+  ],
+  "author": "IvannikovG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvannikovG/project-lvl1-s368/issues"
+  },
+  "homepage": "https://github.com/IvannikovG/project-lvl1-s368#readme",
+  
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-node": "*",
+    "babel-preset-env": "*"
+  },
+  "files": [
+    "dist"
+  ]
+}
