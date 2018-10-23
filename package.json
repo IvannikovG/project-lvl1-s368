@@ -1,6 +1,6 @@
 {
   "name": "braingamesivannikovg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS project N1 for Hexlet. Braingames",
   "main": "brain-games.js",
   "bin": {
@@ -31,7 +31,8 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0"
+    "@babel/preset-env": "^7.1.0",
+    "babel-preset-latest": "^6.24.1"
   },
   "files": [
     "dist"
