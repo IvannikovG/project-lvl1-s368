@@ -2,7 +2,7 @@
   "name": "braingamesivannikovg",
   "version": "1.0.1",
   "description": "JS project N1 for Hexlet. Braingames",
-  "main": "brain-games.js",
+  "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -31,15 +31,12 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "babel-preset-latest": "^6.24.1"
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "hexlet-pairs": "^1.0.8",
-    "readline-sync": "^1.4.9",
-    "save-dev": "^2.0.0"
-  }
+  ]
 }
