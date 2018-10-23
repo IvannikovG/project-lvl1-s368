@@ -2,7 +2,7 @@
   "name": "braingamesivannikovg",
   "version": "1.0.0",
   "description": "JS project N1 for Hexlet. Braingames",
-  "main": "index.js",
+  "main": "brain-games.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -27,12 +27,11 @@
     "url": "https://github.com/IvannikovG/project-lvl1-s368/issues"
   },
   "homepage": "https://github.com/IvannikovG/project-lvl1-s368#readme",
-  
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-core": "*",
-    "babel-node": "*",
-    "babel-preset-env": "*"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
   },
   "files": [
     "dist"
