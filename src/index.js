@@ -14,7 +14,6 @@ const game = (gameData, description) => {
 		} else { 
 			console.log(`'${userAnswer}' is a wrong answer ;(. The correct answer was '${answer}'.`);
 			console.log(`Let's try again, ${getName}!`);
-		return;
 		}
 	}
 	console.log(`Congratulations, ${getName}! :O`);
