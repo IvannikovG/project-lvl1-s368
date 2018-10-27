@@ -1,10 +1,12 @@
 {
   "name": "braingamesivannikovg",
-  "version": "1.0.16",
+  "version": "1.0.24",
   "description": "JS project N1 for Hexlet. Braingames",
   "main": "",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -44,9 +46,5 @@
   },
   "files": [
     "dist"
-  ],
-  "bin": {
-    "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
-  }
+  ]
 }
