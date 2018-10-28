@@ -5,19 +5,21 @@ const description = 'What`s the missing number?';
 
 const gameData = () => {
   const progressionLength = 10;
-  const start = getRandomNum(1, 100);
+  let currentNum = getRandomNum(1, 10);
   const step = getRandomNum(1, 10);
-
-  let question = '';
   const missingNumberPosition = getRandomNum(0, progressionLength - 1);
-  const answer = start + step * missingNumberPosition;
-  for (let i = 0; i <= progressionLength - 1; i += 1) {
-  	if (i === missingNumberPosition) {
-  		question += '.. ';
-  		i += 1;
-  	}
-    question += `${start + step *  i }`;
+  const progression = [];
+  let answer;
+  for (let i = 0; i < progressionLength; i += 1) {
+    if (i === missingNumberPosition) {
+      progression.push('...');
+      answer = String(currentNum);
+      currentNum += step;
+    }
+    progression.push(currentNum);
+    currentNum += step;
   }
+  const question = `${progression.join(' ')}?`;
   return [question, answer];
 };
 
