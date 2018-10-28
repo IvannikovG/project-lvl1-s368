@@ -1,9 +1,9 @@
 import game from '..';
+import getRandomNum from '../utils';
 
-const description = 'What is the result of the expression?\n';
+const description = 'What is the result of the expression?';
 
 const gameData = () => {
-  const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
   const pseudoRandomNumber = getRandomNum(1, 3);
 
   let question;
