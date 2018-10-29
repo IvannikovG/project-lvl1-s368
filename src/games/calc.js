@@ -9,8 +9,8 @@ const gameData = () => {
   let question;
   let answer;
 
-  const maximum = Math.floor(Math.random() * 500) + 1;
-  const minimum = Math.floor(Math.random() * 50) + 1;
+  const maximum = getRandomNum(50, 100);
+  const minimum = getRandomNum(1, 49);
 
   const arg1 = getRandomNum(minimum, maximum);
   const arg2 = getRandomNum(minimum, maximum);
